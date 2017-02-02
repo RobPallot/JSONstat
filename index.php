@@ -180,7 +180,7 @@
 <div id="wrap">
   <div id="sidebar"><?php write_side_bar(); ?></div>
    <div id="content">
-    <div id="header"><?php print T('Traffic data for').(isset($iface_title[$iface]) ? $iface_title[$iface] : '')." ($iface)";?></div>
+    <div id="header"><?php print T('Traffic data for ').(isset($iface_title[$iface]) ? $iface_title[$iface] : '')." ($iface)";?></div>
     <div id="main">
     <?php
     $graph_params = "if=$iface&amp;page=$page&amp;style=$style";
@@ -209,7 +209,8 @@
     }
     ?>
     </div>
-    <div id="footer"><a href="http://www.sqweek.com/">vnStat PHP frontend</a> 1.5.2 - &copy;2006-2011 Bjorge Dijkstra (bjd _at_ jooz.net)</div>
+    <div id="footer"><a href="https://github.com/RobPallot/JSONstat">JSONstat PHP frontend</a> forked from <a href="https://github.com/bjd/vnstat-php-frontend">github/bjd</a></div>
+    <meta name="credit" content="vnStat PHP frontend 1.5.2 - ©2006-2011 Bjorge Dijkstra (bjd _at_ jooz.net)">
   </div>
 </div>
 

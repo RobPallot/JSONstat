@@ -1,10 +1,10 @@
 <?php
 
 // sidebar labels
-$L['summary'] = 'summary';
-$L['hours'] = 'hours';
-$L['days'] = 'days';
-$L['months'] = 'months';
+$L['summary'] = 'Summary';
+$L['hours'] = 'Hours';
+$L['days'] = 'Days';
+$L['months'] = 'Months';
 
 // main table headers
 $L['Summary'] = 'Summary';
